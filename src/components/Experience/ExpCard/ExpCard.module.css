@@ -1,0 +1,26 @@
+.HiddenContent {
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    opacity: 0;
+    color: #fafafa;
+    background-color: black;
+    padding: 30px;
+    -webkit-transition: opacity 400ms; /* Safari */
+    transition: opacity 400ms;
+}
+
+.HiddenContent:hover {
+    transform: scale(1.01);
+    opacity: 0.85;
+}
+
+@media (max-width: 499px) {
+    .HiddenContent {
+        width: 300px;
+    }
+}

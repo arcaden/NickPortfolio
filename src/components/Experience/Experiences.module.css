@@ -1,0 +1,23 @@
+.Experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.ExpCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 499px) {
+    .ExpCards {
+        flex-direction: column;
+    }
+}
